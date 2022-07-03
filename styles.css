@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+h1 {
+    color: blue;
+}
+
+.flex-container {
+    border: dotted darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    border: solid black;
+}
